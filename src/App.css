@@ -1,0 +1,25 @@
+.Nav li {
+  display: inline;
+  margin: 0px 50px;
+}
+
+.HiddenNav {
+  display: none;
+  position: absolute;
+  /* width: 100px; */
+  left: 0px;
+  padding-inline-start: 0px !important;
+}
+.HiddenNav li {
+  display: block;
+  list-style-type: none;
+  /* width: 110px; */
+  /* margin-right: 30px; */
+}
+.Services:hover .HiddenNav {
+  display: block;
+  /* border: solid; */
+}
+.Services {
+  position: relative;
+}
